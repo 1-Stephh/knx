@@ -6,7 +6,7 @@
 
 Stm32Platform::Stm32Platform()
 #ifndef KNX_NO_DEFAULT_UART
-    : ArduinoPlatform(&Serial2)
+    : ArduinoPlatform(&Serial)
 #endif
 {
 }
